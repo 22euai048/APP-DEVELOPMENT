@@ -1,0 +1,57 @@
+/* ThankYouPage.css */
+
+.thank-you-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .thank-you-container h2 {
+    color: #1eb2a6;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .thank-you-container img {
+    max-width: 100px;
+    margin: 20px 0;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    margin-top: 20px;
+  }
+  
+  .user-info p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .user-info strong {
+    color: #1eb2a6;
+  }
+  
+  .hall-info {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .hall-info img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hall-info p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  

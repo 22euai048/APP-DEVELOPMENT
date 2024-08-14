@@ -1,0 +1,32 @@
+.booking-history-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-history-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .booking-history-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-history-container li {
+    background-color: rgb(206, 182, 152);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .booking-history-container p {
+    margin: 5px 0;
+  }
+  

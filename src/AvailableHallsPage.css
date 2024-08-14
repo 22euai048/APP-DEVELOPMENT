@@ -1,0 +1,100 @@
+.available-halls-page {
+    display: flex;
+    font-family: Arial, sans-serif; /* Adding a consistent font for better readability */
+  }
+  
+  .sidebar {
+    width: 15%; /* Reduced width for the sidebar */
+    padding: 10px; /* Increased padding for a more spacious sidebar */
+    background-color: #f4f4f4; /* Light background color for contrast */
+    border-right: 1px solid #ddd; /* Subtle border to separate sidebar from content */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px; /* More space below the heading */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333; /* Dark text for better readability */
+    font-size: 16px; /* Slightly larger font size for list items */
+  }
+  
+  .sidebar a:hover {
+    color: #010408; /* Change color on hover for better interaction */
+  }
+  
+  .halls-container {
+    width: 85%; /* Adjusted width to fill the remaining space */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; /* Increased padding for better spacing */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .hall-card {
+    flex: 1 1 calc(33.333% - 20px); /* Flex grow, shrink, and basis for 3 cards in a row */
+    border: 1px solid #ddd;
+    padding: 15px; /* Increased padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    text-align: center;  /* Centers the text */
+    border-radius: 10px; /* Rounded corners for the card */
+    background-color: #fff; /* White background for the card */
+  }
+  
+  .hall-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+  }
+  
+  .hall-card img {
+    width: 100%;
+    height: 200px; /* Fixed height for images to maintain uniformity */
+    object-fit: cover; /* Crop the image to fit the container */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 15px; /* Space between the image and the content below */
+  }
+  
+  .hall-card h3 {
+    margin: 10px 0; /* Space between the title and the content below */
+    font-size: 18px; /* Slightly larger font size for titles */
+  }
+  
+  .hall-card p {
+    margin: 5px 0; /* Space between the paragraphs */
+    font-size: 14px; /* Adjusted font size for better readability */
+  }
+  
+  .hall-card button {
+    background-color: #030f06; /* Updated green color */
+    border: none;
+    color: white;
+    padding: 12px 24px; /* Increased padding for larger button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px; /* Rounded corners for the button */
+  }
+  
+  .hall-card button:hover {
+    background-color: #090f0a; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly larger button on hover */
+  }
+  

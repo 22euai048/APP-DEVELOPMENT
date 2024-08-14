@@ -1,0 +1,42 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/036/044/574/non_2x/ai-generated-vintage-wedding-artwork-for-your-exhibition-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    background-color: #06090b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #050607;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: white; /* Ensure the text is visible over the background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a slight shadow for better visibility */
+  }
+  
